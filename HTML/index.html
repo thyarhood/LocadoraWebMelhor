@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 
 <html>
+
     <head>
-        <title>Tela de Login do Sistema</title>
-        <link rel="stylesheet" type="text/css" href="loginCadastro.css">
+        <title>Tela de Login</title>
+        <link rel="stylesheet" type="text/css" href="../CSS/index.css">
     </head>
 
     <body>
 
-    <div class="logo"></div class="logo">
-    <div class = "laterais"></div class=laterais>
+        <img src="../IMAGENS/logo.png">
 
-    <div class="telaInteira">
+        <div class="principal">
+            <div class="agrupamento">
 
-        
+                <div class="espaçamento">
+                    <form><label for="usuario">Usuário: </label><input type="text" name="usuario" placeholder="Email ou telefone"></form>
+                </div class="espaçamento">
 
-        <div class="agrupaElementos">
-        <div class="espaçamento">
-        <form action="index.html"> Usuario: <input type="text" name="usuario"></form>
-        </div class = "espaçamento">
+                <div class="espaçamento">
+                    <form><label for="senha">Senha: </label><input type="password" name="senha" placeholder="Senha"></form>
+                </div class="espaçamento">
 
-        <div class="espaçamento">
-        <form action="index.html"> <label for="senha">Senha:</label> <input name="senha" type="password"></form>
-        </div class = "espaçamento">
+                <div class="espaçamento">
+                    <form><input type="submit" value="Entrar"></form>
+                </div class="espaçamento">
+            
+                <div class="espaçamento">
+                    <a id="espaço" href="./telaPrincipal.html">Entrar</a>
+                    <a href="./cadastro.html">Cadastrar</a>
+                </div class="espaçamento">
 
-        <div class="espaçamento">
-        <form action="index.html"> <input type="submit" value="Entrar"></form>
-        </div class = "espaçamento">
-
-        <div class="espaçamento">
-        <a href="telaPrincipal.html">Entrar</a>
-        <a href="cadastro.html">Cadastro</a>
-        </div class="agrupaElementos">
-
-        </div class = "espaçamento">
-
-    </div class="telaInteira">
+            </div class="agrupamento">
+        </div class="proncipal">
 
     </body>
 </html>
