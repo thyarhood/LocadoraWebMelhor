@@ -129,3 +129,10 @@ a{
     font-size: 157%;
     text-decoration: none; 
 }
+
+figure{
+    color:rgb(243, 53, 53);
+    align-items: center;
+    font-family:impact;
+
+}
